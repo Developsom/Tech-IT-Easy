@@ -1,0 +1,10 @@
+#soldCount {
+    color: green;
+}
+#stock {
+    color: blue;
+}
+
+#remainingStock {
+    color: red;
+}
