@@ -17,7 +17,11 @@ const ambiLightTVs = inventory.filter((invent) => {
 })
 console.log(ambiLightTVs)
 
-const priceLowToHigh = inventory.sort((a, b) => {
-    return (a.price - b.price)
-})
-console.log(priceLowToHigh);
+//const priceLowToHigh = inventory.sort((a, b) => {
+//    return (a.price - b.price)
+//})
+//console.log(priceLowToHigh);
+
+function sortTvs(tvs) {
+    tvs.sort((a, b) => a.price - b.price);
+}
